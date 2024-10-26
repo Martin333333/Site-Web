@@ -1,0 +1,84 @@
+#tennis{
+	background-image:url(Images/tennis.png);
+	height:90px;
+	width:150px;
+	padding-top:50px;
+	text-align:center;
+	border:solid; 
+	border-radius:6px;
+	grid-area:te;
+	text-decoration:none;
+	color:black;
+}
+	
+#voiture{
+	background-image:url(Images/voiture.png);
+	height:90px;
+	width:150px;
+	padding-top:50px;
+	text-align:center;
+	border:solid; 
+	border-radius:6px;
+	grid-area:vo;
+}
+
+#histoire{
+	background-image:url(Images/histoire.png);
+	height:90px;
+	width:150px;
+	padding-top:50px;
+	text-align:center;
+	border:solid; 
+	border-radius:6px;
+	grid-area:hi;
+}
+
+.tennis1{
+	grid-area:te1;
+}
+
+.voiture1{
+	grid-area:vo1;
+}
+
+.histoire1{
+	grid-area:hi1;
+}
+
+.wrapper{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr;
+	grid-template-areas:
+	". te vo hi ."
+	"te1 te1 te1 te1 te1"
+	"vo1 vo1 vo1 vo1 vo1"
+	"hi1 hi1 hi1 hi1 hi1"
+}
+
+nav ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Dispose les éléments en ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+    background-color: #006400; /* Couleur de fond vert foncé */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacement horizontal entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none; /* Enlève le soulignement des liens */
+    color: white; /* Couleur du texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    padding: 10px 15px; /* Espacement autour du texte pour agrandir la zone cliquable */
+    display: block; /* Permet à tout le padding d'être cliquable */
+}
+
+nav ul li a:hover {
+    background-color: #228B22; /* Change la couleur au survol (vert clair) */
+    border-radius: 5px; /* Arrondit les coins au survol */
+}
+	

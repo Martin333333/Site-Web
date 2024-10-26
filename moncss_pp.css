@@ -1,0 +1,25 @@
+nav ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Dispose les éléments en ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+    background-color: #006400; /* Couleur de fond vert foncé */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacement horizontal entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none; /* Enlève le soulignement des liens */
+    color: white; /* Couleur du texte en blanc */
+    font-weight: bold; /* Texte en gras */
+    padding: 10px 15px; /* Espacement autour du texte pour agrandir la zone cliquable */
+    display: block; /* Permet à tout le padding d'être cliquable */
+}
+
+nav ul li a:hover {
+    background-color: #228B22; /* Change la couleur au survol (vert clair) */
+    border-radius: 5px; /* Arrondit les coins au survol */
+}
